@@ -11,4 +11,4 @@ Run after you install npm
 $ index.js
 ```
 
-This will create an `epg.xml` file and a `playlist.m3u` file
+This will create an `plutotv.xml` file and a `plutotv.m3u` file
