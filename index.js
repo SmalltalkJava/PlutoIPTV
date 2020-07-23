@@ -37,7 +37,7 @@ const plutoIPTV = {
 
     // 2020-03-25%2005%3A00%3A00.000%2B0000
     let stopTime = encodeURIComponent(
-      moment().add(8, 'hours').format('YYYY-MM-DD HH:00:00.000ZZ')
+      moment().add(12, 'hours').format('YYYY-MM-DD HH:00:00.000ZZ')
     );
 
     let url = `http://api.pluto.tv/v2/channels?start=${startTime}&stop=${stopTime}`;
@@ -200,9 +200,9 @@ ${m3uUrl}
     }
   );
 
-  fs.writeFileSync('\/home\/xteve\/conf\/data\/pluto.xml', epg);
+  fs.writeFileSync('plutotv.xml', epg);
   console.log('[SUCCESS] Wrote the EPG to pluto.xml!');
 
-  fs.writeFileSync('\/home\/xteve\/conf\/data\/pluto.m3u8', m3u8);
+  fs.writeFileSync('plutotv.m3u8', m3u8);
   console.log('[SUCCESS] Wrote the M3U8 tuner to pluto.m3u8!');
 });
