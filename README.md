@@ -1,15 +1,14 @@
 # PlutoIPTV
 
-Grab EPG &amp; M3U from Pluto.tv
+Grab EPG & M3U from Pluto.tv
 
-Based on https://github.com/TylerB260/PlutoXML
 
 ## Usage
 
-Run
+Run after you install npm
 
 ```bash
-$ npx pluto-iptv
+$ index.js
 ```
 
 This will create an `epg.xml` file and a `playlist.m3u` file
