@@ -61,7 +61,7 @@ plutoIPTV.grabJSON(function (err, channels) {
   // M3U8 Playlist //
   ///////////////////
 
-  let m3u8 = '';
+  let m3u8 = `#EXTM3U` + `\n`;
   channels.forEach((channel) => {
     let deviceId = uuid1();
     let sid = uuid4();
@@ -200,9 +200,9 @@ ${m3uUrl}
     }
   );
 
-  fs.writeFileSync('epg.xml', epg);
-  console.log('[SUCCESS] Wrote the EPG to epg.xml!');
+  fs.writeFileSync('\/home\/xteve\/conf\/data\/pluto.xml', epg);
+  console.log('[SUCCESS] Wrote the EPG to pluto.xml!');
 
-  fs.writeFileSync('playlist.m3u8', m3u8);
-  console.log('[SUCCESS] Wrote the M3U8 tuner to playlist.m3u8!');
+  fs.writeFileSync('\/home\/xteve\/conf\/data\/pluto.m3u8', m3u8);
+  console.log('[SUCCESS] Wrote the M3U8 tuner to pluto.m3u8!');
 });
