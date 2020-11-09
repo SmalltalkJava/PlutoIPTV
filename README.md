@@ -17,11 +17,11 @@ This will create an `plutotv.xml` file and a `plutotv.m3u` file
 If downloading the .json and .js files in to C:\IPTV didn't work, then 
 try these commands from the C:\IPTV directory to install the Pluto-IPTV code 
 
-npm install SmalltalkJava/PlutoIPTV
+```npm install SmalltalkJava/PlutoIPTV```
 or 
-npm install github:SmalltalkJava/PlutoIPTV
+```npm install github:SmalltalkJava/PlutoIPTV```
 
-Once you do that then try the NPX pluto-iptv command again.
+Once you do that then try the  ```npx pluto-iptv``` command again.
 
 
 
