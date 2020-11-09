@@ -5,16 +5,15 @@ Grab EPG & M3U from Pluto.tv
 
 ## Usage
 
-Install npm also known as node  from https://nodejs.org/en/
-Once that is installed, then download package.json and index.js to C:\IPTV
+1.  Install npm also known as node  from https://nodejs.org/en/
 
-open a command prompt in IPTV and type:   ```npx pluto-iptv```
+2.  Once that is installed, then download package.json and index.js to C:\IPTV
+3.  Open a command prompt in IPTV and type:   ```npx pluto-iptv```
 It will spin for a few seconds and then work its magic.
-
 
 This will create an `plutotv.xml` file and a `plutotv.m3u` file
 
-## Setup  as windows Service
+## Setup as windows Service
 
 This assumes you are using the same directory as above:  C:\IPTV
 1. Download and install GiT for Windows from: https://gitforwindows.org/
@@ -27,7 +26,7 @@ This assumes you are using the same directory as above:  C:\IPTV
 8. Next... Select... "start a program"
 9. Browse and select your git-bash.exe  in the C:\Program Files\Git install directory where Git Bash was installed.
 9b. make sure its git-bash.exe  and NOT git-bash.cmd
-10. In the add arguments put this:
+10. In the Add Arguments (Optional) field put this:
 ```-l -i -c "cd C:/IPTV;npx pluto-iptv"```
 11. finish it out.  then add another time for it to run so it runs every 12 hours or so.
 
