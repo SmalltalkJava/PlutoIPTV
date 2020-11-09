@@ -104,7 +104,7 @@ ${m3uUrl}
 
 `;
 
-      console.log('[INFO] Adding ' + channel.name + ' channel.');
+      console.log('[INFO] Now Adding ' + channel.name + ' channel.');
     } else {
       console.log("[DEBUG] Skipping 'fake' channel " + channel.name + '.');
     }
@@ -137,7 +137,7 @@ ${m3uUrl}
       if (channel.timelines) {
         channel.timelines.forEach((programme) => {
           console.log(
-            '[INFO] Adding instance of ' +
+            '[INFO] Now Adding instance of ' +
               programme.title +
               ' to channel ' +
               channel.name +
