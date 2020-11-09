@@ -17,11 +17,11 @@
   "bin": {
     "pluto-iptv": "./index.js"
   },
-  "repository": "git+https://github.com/evoactivity/PlutoIPTV.git",
-  "author": "Liam Potter <liam@liampotter.co.uk>",
+  "repository": "git+https://github.com/SmalltalkJava/PlutoIPTV.git",
+  "author": "Name <name@name.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/evoactivity/PlutoIPTV/issues"
+    "url": "https://github.com/SmalltalkJava/PlutoIPTV/issues"
   },
-  "homepage": "https://github.com/evoactivity/PlutoIPTV#readme"
+  "homepage": "https://github.com/SmalltalkJava/PlutoIPTV#readme"
 }
