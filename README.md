@@ -13,6 +13,18 @@ It will spin for a few seconds and then work its magic.
 
 This will create an `plutotv.xml` file and a `plutotv.m3u` file
 
+##  Notes 
+If downloading the .json and .js files in to C:\IPTV didn't work, then 
+try these commands from the C:\IPTV directory to install the Pluto-IPTV code 
+
+npm install SmalltalkJava/PlutoIPTV
+or 
+npm install github:SmalltalkJava/PlutoIPTV
+
+Once you do that then try the NPX pluto-iptv command again.
+
+
+
 ## Setup as windows Service
 
 This assumes you are using the same directory as above:  C:\IPTV
@@ -31,6 +43,5 @@ This assumes you are using the same directory as above:  C:\IPTV
 11. finish it out.  then add another time for it to run so it runs every 12 hours or so.
 
 You can test it out by "running" the task" and seeing if the files get created.  if you have problems then disable it so it doesn't run and keep trying to figure it out.   but this is how I got it to run.
-
 
 
